@@ -18,7 +18,7 @@ To install, you can use [npm](https://npmjs.org/):
 Example of district selection and standard style:
 
 ```jsx
-import React from 'react'
+import React, { useState } from 'react'
 function App () {
   const [distritc, setDistrict] = useState('')
   return (
