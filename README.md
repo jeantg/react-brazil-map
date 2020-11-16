@@ -47,7 +47,7 @@ function App () {
 }
 ```
 
-You can also pass a style to the district label:
+You can also pass a style for the district title, width and height of the map:
 
 ```jsx
 import React from 'react'
@@ -56,7 +56,7 @@ import { MapBrazil } from 'react-brazil-map'
 function App () {
   return (
     <div className='App'>
-      <MapBrazil colorLabel='red' />
+      <MapBrazil colorLabel='red' width={500} height={500} />
     </div>
   )
 }
