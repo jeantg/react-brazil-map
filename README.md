@@ -15,10 +15,12 @@ To install, you can use [npm](https://npmjs.org/):
 
 ## Examples
 
-Example of district selection and standard style:
+Example of district selection and default style:
 
 ```jsx
 import React, { useState } from 'react'
+import { MapBrazil } from 'react-map-brazil'
+
 function App () {
   const [distritc, setDistrict] = useState('')
   return (
@@ -34,6 +36,8 @@ Customize the background color, selection color and map outline:
 
 ```jsx
 import React from 'react'
+import { MapBrazil } from 'react-map-brazil'
+
 function App () {
   return (
     <div className='App'>
@@ -47,6 +51,8 @@ You can also pass a style to the district label:
 
 ```jsx
 import React from 'react'
+import { MapBrazil } from 'react-map-brazil'
+
 function App () {
   return (
     <div className='App'>
