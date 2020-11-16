@@ -13,6 +13,10 @@ To install, you can use [npm](https://npmjs.org/):
 
     $ npm install --save react-brazil-map
 
+To install, you can use [yarn](https://https://yarnpkg.com/):
+
+    $ yarn add react-brazil-map
+
 ## Examples
 
 Example of district selection and default style:
