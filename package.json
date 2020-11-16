@@ -1,10 +1,10 @@
 {
-  "name": "react-map-brazil-two",
+  "name": "react-brazil-map",
   "version": "1.0.0",
   "description": " Component of the map of Brazil",
   "author": "Jean Garcia",
   "license": "MIT",
-  "repository": "Jean Garcia/react-test-map",
+  "repository": "Jean514/react-brazil-map",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "module": "dist/index.modern.js",
@@ -14,10 +14,8 @@
   },
   "scripts": {
     "build": "rollup -c",
-    "start": "microbundle-crl watch --no-compress --format modern,cjs",
-    "test": "react-scripts test",
-    "predeploy": "cd example && yarn install && yarn run build",
-    "deploy": "gh-pages -d example/build"
+    "start": "rollup -c -w",
+    "test": "react-scripts test"
   },
   "keywords": [
     "Mapa do Brasil",
