@@ -1,4 +1,4 @@
-# react-map-brazil
+# react-brazil-map
 
 Accessible Brazil map component for React.JS
 
@@ -11,7 +11,7 @@ Accessible Brazil map component for React.JS
 
 To install, you can use [npm](https://npmjs.org/):
 
-    $ npm install --save react-map-brazil
+    $ npm install --save react-brazil-map
 
 ## Examples
 
@@ -19,7 +19,7 @@ Example of district selection and default style:
 
 ```jsx
 import React, { useState } from 'react'
-import { MapBrazil } from 'react-map-brazil'
+import { MapBrazil } from 'react-brazil-map'
 
 function App () {
   const [distritc, setDistrict] = useState('')
@@ -36,7 +36,7 @@ Customize the background color, selection color and map outline:
 
 ```jsx
 import React from 'react'
-import { MapBrazil } from 'react-map-brazil'
+import { MapBrazil } from 'react-brazil-map'
 
 function App () {
   return (
@@ -51,7 +51,7 @@ You can also pass a style to the district label:
 
 ```jsx
 import React from 'react'
-import { MapBrazil } from 'react-map-brazil'
+import { MapBrazil } from 'react-brazil-map'
 
 function App () {
   return (
