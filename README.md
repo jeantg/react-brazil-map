@@ -1,4 +1,4 @@
-# react-brazil-map
+# react-brazil-map &middot; [![npm version](https://img.shields.io/badge/npm-v1.0.1-blue)](https://www.npmjs.com/package/react-brazil-map)
 
 Accessible Brazil map component for React.JS
 
