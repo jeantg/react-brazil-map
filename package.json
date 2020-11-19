@@ -4,7 +4,7 @@
   "description": " Component of the map of Brazil",
   "author": "Jean Garcia",
   "license": "MIT",
-  "repository": "Jean514/react-brazil-map",
+  "repository": "jeantg/react-brazil-map",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "module": "dist/index.modern.js",
