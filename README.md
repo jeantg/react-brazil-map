@@ -26,11 +26,11 @@ import React, { useState } from 'react'
 import { MapBrazil } from 'react-brazil-map'
 
 function App () {
-  const [distritc, setDistrict] = useState('')
+  const [district, setDistrict] = useState('')
   return (
     <div className='App'>
       <MapBrazil onChange={setDistrict} />
-      <p>The selected district was {distritc}</p>
+      <p>The selected district was {district}</p>
     </div>
   )
 }
